@@ -7,3 +7,4 @@ if exist "%LOCALAPPDATA%\heroku\client\bin\heroku.cmd" (
 ) else (
   "%~dp0\..\client\bin\node.exe" "%~dp0\..\client\bin\run" %*
 )
+  
